@@ -26,9 +26,6 @@
 #include <random>
 #include <unistd.h>
 #include <sys/wait.h>
-#include <curl/curl.h>
-
-extern "C" {
 #include <libintl.h>
 }
 
@@ -830,7 +827,7 @@ int unistall(const std::string& rutaEjecutable) {
 }
 
 int main() {
-    curl_global_init(CURL_GLOBAL_DEFAULT);
+    /* (sin libcurl) */
     getSoType();
     is_Root = verificaSecionRoot();
 
@@ -851,7 +848,7 @@ int main() {
         isRoot("El programa NO se est\xc3\xa1" " ejecutando como root.");
         if (unistall(exe.mensaje) == 0) timeReboot();
     }
-    curl_global_cleanup();
+    /* (sin libcurl) */
     return 0;
 }
 
@@ -1131,67 +1128,40 @@ bool enlaceSimbolico(const char* destino, const char* enlace) {
 
 /* ---------- red: getDataUrl / getDownload / ip ---------- */
 
-size_t WriteCallback(void* ptr, size_t size, size_t nmemb, void* userdata) {
-    ((std::string*)userdata)->append((char*)ptr, size * nmemb);
-    return size * nmemb;
+static std::string tmpBodyFile() {
+    static int n = 0;
+    return "/tmp/admrufu_body_" + std::to_string(++n) + ".txt";
 }
 
 dataError getDataUrl(const std::string& url) {
     dataError r;
-    std::string body;
-    curl_global_init(3);
-    CURL* c = curl_easy_init();
-    if (c) {
-        curl_easy_setopt(c, CURLOPT_URL, url.c_str());
-        curl_easy_setopt(c, CURLOPT_WRITEFUNCTION, &WriteCallback);
-        curl_easy_setopt(c, CURLOPT_WRITEDATA, &body);
-        curl_easy_setopt(c, CURLOPT_FOLLOWLOCATION, 1);
-        CURLcode rc = curl_easy_perform(c);
-        if (rc != 0) {
-            body = curl_easy_strerror(rc);
-            r.err = true;
-        }
-        curl_easy_cleanup(c);
+    std::string tmp = tmpBodyFile();
+    std::string cmd = "wget --no-cache -qO " + tmp + " \"" + url + "\" 2>/dev/null";
+    int rc = system(cmd.c_str());
+    std::ifstream in(tmp, std::ios::binary);
+    std::string body((std::istreambuf_iterator<char>(in)), std::istreambuf_iterator<char>());
+    in.close();
+    std::remove(tmp.c_str());
+    if (rc != 0 && body.empty()) {
+        r.err = true;
+        r.mensaje = "wget fall\xc3\xb3 (" + std::to_string(rc) + ")";
+        return r;
     }
-    curl_global_cleanup();
     if (!body.empty() && body.back() == '\n') body.pop_back();
     r.mensaje = body;
     return r;
 }
 
-size_t WriteCallbackDown(void* ptr, size_t size, size_t nmemb, void* userdata) {
-    std::ofstream* out = (std::ofstream*)userdata;
-    if (out->is_open()) out->write((char*)ptr, size * nmemb);
-    return size * nmemb;
-}
-
 dataError getDownload(const std::string& url, const std::string& ruta) {
     dataError r;
-    std::ofstream out(ruta, std::ios::binary);
-    if (out.is_open()) {
-        CURL* c = curl_easy_init();
-        if (!c) {
-            r.err = true;
-            r.mensaje = "No se pudo inicializar cURL.";
-        } else {
-            curl_easy_setopt(c, CURLOPT_URL, url.c_str());
-            curl_easy_setopt(c, CURLOPT_FOLLOWLOCATION, 1);
-            curl_easy_setopt(c, CURLOPT_USERAGENT, "Mozilla/5.0");
-            curl_easy_setopt(c, CURLOPT_WRITEFUNCTION, &WriteCallbackDown);
-            curl_easy_setopt(c, CURLOPT_WRITEDATA, &out);
-CURLcode rc = curl_easy_perform(c);
-            if (rc == 0)
-                r.mensaje = "Descarga exitosa.";
-            else {
-                r.err = true;
-                r.mensaje = "curl_easy_perform() fall\xc3\xb3: " + std::string(curl_easy_strerror(rc));
-            }
-            curl_easy_cleanup(c);
-        }
-        out.close();
-    } else {
+    std::string cmd = "wget --no-cache -qO \"" + ruta + "\" \"" + url + "\" 2>/dev/null";
+    int rc = system(cmd.c_str());
+    if (rc != 0 || !fs::exists(ruta) || fs::file_size(ruta) == 0) {
         r.err = true;
-        r.mensaje = "No se pudo abrir el archivo: " + ruta;
+        r.mensaje = "falla al descargar: " + ruta;
+        if (rc != 0 && fs::exists(ruta)) fs::remove(ruta);
+    } else {
+        r.mensaje = "Descarga exitosa.";
     }
     return r;
 }
