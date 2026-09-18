@@ -1,0 +1,71 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "INSTALADOR FILEBROWSER"
+msgstr "FILEBROWSER INSTALLER"
+
+msgid "USUARIO"
+msgstr "USER"
+
+msgid "CLAVE"
+msgstr "KEY"
+
+msgid "falla al crear directorio de trabajo"
+msgstr "failed to create working directory"
+
+msgid "falla al obtener ip de la interfas"
+msgstr "failed to get interface ip"
+
+msgid "falla al copiar binario filebrowser"
+msgstr "failed to copy filebrowser binary"
+
+msgid "falla al copiar logo.svg"
+msgstr "failed to copy logo.svg"
+
+msgid "generadon base de datos"
+msgstr "generated database"
+
+msgid "falla al crear base de datos"
+msgstr "failed to create database"
+
+msgid "generadon usuario"
+msgstr "generated user"
+
+msgid "falla al crear servicio filebrowser"
+msgstr "failed to create service filebrowser"
+
+msgid "MODIFICAR PUERTO FILEBROWSER"
+msgstr "MODIFY FILEBROWSER PORT"
+
+msgid "ADMINISTRADOR DE ARCHIVOS (FILEBROWSER)"
+msgstr "FILE MANAGER (FILEBROWSER)"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "CAMBIAR PUERTO"
+msgstr "CHANGE PORT"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESET SERVICE"
+
+msgid "INICIAR/PARAR SERVICIO"
+msgstr "START/STOP SERVICE"
+
+msgid "LOG FILEBROWSER EN TIEMPO REAL"
+msgstr "FILEBROWSER LOG IN REAL TIME"
+
+msgid "REINSTALAR"
+msgstr "REINSTALL"
+
+msgid "DESINSTALAR"
+msgstr "UNINSTALL"
+
+msgid "INSTALAR FILEBROWSER"
+msgstr "INSTALL FILEBROWSER"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"

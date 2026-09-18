@@ -1,0 +1,80 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "INGRESA EL PUERTO"
+msgstr "ENTER PORT"
+
+msgid "EN USO!"
+msgstr "IN USE!"
+
+msgid "PUERTO UDP"
+msgstr "UDP PORT"
+
+msgid "Ingresa un rango o puerto, para la redirecion de trafico"
+msgstr "Enter a range or port, for traffic redirection"
+
+msgid "Ingresa Tu Rango Iptables"
+msgstr "Enter Your Iptables Range"
+
+msgid "RANGOS IPTABLES"
+msgstr "IPTABLES RANGES"
+
+msgid "falla al copiar binario udp-custom"
+msgstr "failed to copy udp-custom binary"
+
+msgid "INSTALADOR UDP-CUSTOM"
+msgstr "UDP-CUSTOM INSTALLER"
+
+msgid "Confima que quiere desinstalar? [S/N]"
+msgstr "Confirm that you want to uninstall? [Y/N]"
+
+msgid "Confima que quiere reinstalar? [S/N]"
+msgstr "Confirm that you want to reinstall? [Y/N]"
+
+msgid "Confima que quiere reconfigurar? [S/N]"
+msgstr "Confirm that you want to reconfigure? [Y/N]"
+
+msgid "ADMINISTRADOR UDP-CUSTOM"
+msgstr "UDP-CUSTOM MANAGER"
+
+msgid "Volver"
+msgstr "Return"
+
+msgid "RECONFIGURAR UDP-CUSTOM"
+msgstr "RECONFIGURE UDP-CUSTOM"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESET SERVICE"
+
+msgid "INICIAR/PARAR SERVICIO"
+msgstr "START/STOP SERVICE"
+
+msgid "LOG UDP-CUSTOM EN TIEMPO REAL"
+msgstr "LOG UDP-CUSTOM IN REAL TIME"
+
+msgid "REINSTALAR"
+msgstr "REINSTALL"
+
+msgid "DESINSTALAR"
+msgstr "UNINSTALL"
+
+msgid "INSTALAR UDP-CUSTOM"
+msgstr "INSTALL UDP-CUSTOM"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"
+
+msgid "MODIFICAR PUERTO"
+msgstr "MODIFY PORT"
+
+msgid "MODIFICAR RANGO IPTABLES"
+msgstr "MODIFY IPTABLES RANGE"
+
+msgid "CANCELAR"
+msgstr "CANCEL"
+
+msgid "APLICAR"
+msgstr "APPLY"

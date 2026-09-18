@@ -1,0 +1,95 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "INGRESA EL TIPO DE TRAFICO"
+msgstr "ENTER TRAFFIC TYPE"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an option"
+
+msgid "INGRESA EL PUERTO"
+msgstr "ENTER PORT"
+
+msgid "EN USO!"
+msgstr "IN USE!"
+
+msgid "PUERTO OPENVPN"
+msgstr "OPENVPN PORT"
+
+msgid "INGRESA EL TIPO DE CIFRADO"
+msgstr "ENTER ENCRYPTION TYPE"
+
+msgid "INGRESA EL TIPO DE DNS"
+msgstr "ENTER DNS TYPE"
+
+msgid "INSTALADOR OPENVPN"
+msgstr "OPENVPN INSTALLER"
+
+msgid "no se encontro modulo tun"
+msgstr "tun module not found"
+
+msgid "instalacion canselada!"
+msgstr "installation cancelled!"
+
+msgid "falla al descargar Easy-rsa"
+msgstr "easy-rsa download failed"
+
+msgid "Confima que quiere desinstalar? [S/N]"
+msgstr "Are you sure you want to uninstall? [Y/N]"
+
+msgid "RECONFIGURANDO OPENVPN"
+msgstr "RECONFIGURING OPENVPN"
+
+msgid "CLIENTE OVPN"
+msgstr "OVPN CLIENT"
+
+msgid "copiar y guardar en un archivo .ovpn"
+msgstr "copy and save to .ovpn file"
+
+msgid "Confima que quiere continuar? [S/N]"
+msgstr "Are you sure you want to continue? [Y/N]"
+
+msgid "ADMINISTRADOR OPENVPN"
+msgstr "OPENVPN ADMINISTRATOR"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "VER CLIENTE OVPN"
+msgstr "VIEW OVPN CLIENT"
+
+msgid "RECONFIGURAR CLIENTE OVPN"
+msgstr "RECONFIGURE OVPN CLIENT"
+
+msgid "RECONFIGURAR CLAVES RSA"
+msgstr "RECONFIGURE RSA KEYS"
+
+msgid "RECONFIGURAR OPENVPN"
+msgstr "RECONFIGURE OPENVPN"
+
+msgid "VER Y MODIFICAR CONF CLIENTE (nano)"
+msgstr "VIEW AND MODIFY CLIENT CONF (nano)"
+
+msgid "VER Y MODIFICAR CONF SERVIDOR (nano)"
+msgstr "VIEW AND MODIFY SERVER CONF (nano)"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESET SERVICE"
+
+msgid "INICIAR/PARAR SERVICIO"
+msgstr "START/STOP SERVICE"
+
+msgid "LOG OPENVPN EN TIEMPO REAL"
+msgstr "START OPENVPN IN REAL TIME"
+
+msgid "REINSTALAR"
+msgstr "REINSTALL"
+
+msgid "DESINSTALAR"
+msgstr "UNINSTALL"
+
+msgid "INSTALAR OPENVPN"
+msgstr "INSTALL OPENVPN"

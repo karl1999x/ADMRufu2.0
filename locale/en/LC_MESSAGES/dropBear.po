@@ -1,0 +1,116 @@
+msgid "ADMINISTRADOR DROPBEAR"
+msgstr "DROPBEAR ADMINISTRATOR"
+
+msgid "VOLVER"
+msgstr "RETURN"
+
+msgid "REDEFINIR PUERTOS"
+msgstr "REDEFINING PORTS"
+
+msgid "CONFIGURACION MANUAL"
+msgstr "MANUAL CONFIGURATION"
+
+msgid "FIX DE INICIO CON EL SISTEMA"
+msgstr "START FIX WITH THE SYSTEM"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESTART SERVICE"
+
+msgid "INICIAR/DETENER SERVICIO"
+msgstr "START/STOP SERVICE"
+
+msgid "DESINSTALAR DROPBEAR"
+msgstr "UNINSTALL DROPBEAR"
+
+msgid "Si usas debian y la instalacion se congela!!!"
+msgstr "If you use debian and the installation freezes!!!"
+
+msgid "Usar la opcion 2 para una instalacion detallada."
+msgstr "Use option 2 for a detailed installation."
+
+msgid "INSTALAR DROPBEAR"
+msgstr "INSTALL DROPBEAR"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"
+
+msgid "ESTADO DEL SERVICIO DROPBEAR"
+msgstr "DROPBEAR SERVICE STATUS"
+
+msgid "NUEVO PUERTO DROPBEAR"
+msgstr "NEW DROPBEAR PORT"
+
+msgid "INGRESA PUERTOS CONSECUTIVOS"
+msgstr "ENTER CONSECUTIVE PORTS"
+
+msgid "SEPARADO POR UN ESPACIO"
+msgstr "SEPARATED BY A SPACE"
+
+msgid "EJ:"
+msgstr "EX:"
+
+msgid "Ingresa tus puertos"
+msgstr "Enter your ports"
+
+msgid "INVALIDO!"
+msgstr "INVALID!"
+
+msgid "EN USO!"
+msgstr "IN USE!"
+
+msgid "DISPONIBLE!"
+msgstr "AVAILABLE!"
+
+msgid "REINTENTAR"
+msgstr "RETRY"
+
+msgid "GUARDAR"
+msgstr "SAVE"
+
+msgid "Falla al abrir"
+msgstr "Failed to open"
+
+msgid "Falla al obtener lista de instalaciones"
+msgstr "Failed to get list of installations"
+
+msgid "Selecciona una version"
+msgstr "Select a version"
+
+msgid "descargando"
+msgstr "downloading"
+
+msgid "falla al descargar instaldor dropbear mod"
+msgstr "Failed to download dropbear mod installer"
+
+msgid "La instalcion de libcrypt1 falla!"
+msgstr "The installation of libcrypt1 fails!"
+
+msgid "Puedes continuar"
+msgstr "You can continue"
+
+msgid "solo no hay libcrypt1 para tu sistema"
+msgstr "there is just no libcrypt1 for your system"
+
+msgid "Desea continuar? [S/N]"
+msgstr "Do you want to continue? [Y/N]"
+
+msgid "FALLA AL DESACTIVAR FIX DE INICIO"
+msgstr "FAILURE TO DISABLE STARTUP FIX"
+
+msgid "PUERTOS PARA DROPBEAR"
+msgstr "PORTS TO DROPBEAR"
+
+msgid "FIX INICIO CON EL SISTEMA, DESACTIVADO"
+msgstr "FIX START WITH SYSTEM DISABLED"
+
+msgid "FIX INICIO CON EL SISTEMA, ACTIVO"
+msgstr "FIX START WITH SYSTEM ACTIVE"
+
+msgid "FALLA AL ACTIVAR FIX DE INICIO"
+msgstr "FAILURE TO ACTIVATE STARTUP FIX"
+
+msgid "CONFIGURAR BANNER SSH"
+msgstr "CONFIGURE SSH BANNER"

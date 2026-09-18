@@ -1,0 +1,125 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "A QUE PUERTO SERA REDIRIGIDO EL TRAFICO?"
+msgstr "TO WHICH PORT WILL TRAFFIC BE REDIRECTED?"
+
+msgid "CANCELAR"
+msgstr "CANCEL"
+
+msgid "INGRESA MANUALMENTE"
+msgstr "ENTER MANUALLY"
+
+msgid "Ingresa una opcion"
+msgstr "Enter an option"
+
+msgid "Ingresa un puerto local"
+msgstr "Enter a local port"
+
+msgid "TRAFICO REDIRIGIDO AL PUERTO"
+msgstr "TRAFFIC REDIRECTED TO PORT"
+
+msgid "DOMINIO"
+msgstr "DOMAIN"
+
+msgid "lista de dominios certificados"
+msgstr "list of certified domains"
+
+msgid "PUERTO PARA STUNNEL"
+msgstr "PORT FOR STUNNEL"
+
+msgid "APLICAR"
+msgstr "APPLY"
+
+msgid "INSTALADOR STUNNEL"
+msgstr "STUNNEL INSTALLER"
+
+msgid "No se pudo instalar stunnel"
+msgstr "Could not install stunnel"
+
+msgid "falla al crear configuracion stunnel"
+msgstr "failed to create configuration stunnel"
+
+msgid "AGREGAR PUERTOS STUNNEL"
+msgstr "ADD STUNNEL PORTS"
+
+msgid "ELIMINAR UN PUERTO SSL"
+msgstr "DELETE A SSL PORT"
+
+msgid "MODIFICAR UN PUERTO SSL"
+msgstr "MODIFY A SSL PORT"
+
+msgid "REMOVER PROTOCOLO STUNNEL"
+msgstr "REMOVE STUNNEL PROTOCOL"
+
+msgid "Desea continuar? [S/N]"
+msgstr "Do you want to continue? [Y/N]"
+
+msgid "ADMINISTRADOR STUNNEL"
+msgstr "STUNNEL ADMINISTRATOR"
+
+msgid "Volver"
+msgstr "Return"
+
+msgid "PUERTOS"
+msgstr "PORTS"
+
+msgid "AGREGAR UN PUERTO SSL"
+msgstr "ADD A SSL PORT"
+
+msgid "QUITAR UN PUERTO SSL"
+msgstr "REMOVE A SSL PORT"
+
+msgid "MODIFICAR AJUSTES DE UN PUERTO (nano)"
+msgstr "MODIFY PORT SETTINGS (nano)"
+
+msgid "FIX DE INICIO CON EL SISTEMA"
+msgstr "START FIX WITH SYSTEM"
+
+msgid "ESTADO DEL SERVICIO SSL"
+msgstr "SSL SERVICE STATUS"
+
+msgid "INICIAR/PARAR SERVICIO SSL"
+msgstr "START/STOP SSL SERVICE"
+
+msgid "REINICIAR SERVICIO SSL"
+msgstr "RESET SSL SERVICE"
+
+msgid "LOG DEL PROCESO STUNNEL"
+msgstr "STUNNEL PROCESS LOG"
+
+msgid "LOG DEL PROCESO STUNNEL EN TIEMPO REAL"
+msgstr "STUNNEL PROCESS LOG IN REAL TIME"
+
+msgid "DESINSTALAR STUNNEL"
+msgstr "UNINSTALL STUNNEL"
+
+msgid "INSTALAR STUNNEL"
+msgstr "INSTALL STUNNEL"
+
+msgid "CERTIFICADOS SSL"
+msgstr "SSL CERTIFICATES"
+
+msgid "ADMINISTRADOR DE CERTIFICADOS SSL"
+msgstr "SSL CERTIFICATE MANAGER"
+
+msgid "ACTUALMENTE TU SISTEMA APLICA UNA CONFIGURACION STUNNEL"
+msgstr "YOUR SYSTEM CURRENTLY APPLIES A STUNNEL CONFIGURATION"
+
+msgid "DISTINTA A LA REQUERIDA POR EL ADMINSTRAOR ADMRufu."
+msgstr "DIFFERENT FROM THE ONE REQUIRED BY THE ADMINISTRATOR ADMRufu."
+
+msgid "PARA CONTINUAR USANDO EL ADMINISTRADOR ADMRufu"
+msgstr "TO CONTINUE USING THE ADMRufu MANAGER"
+
+msgid "REQUIERE ASEPTAR EL PROSESO DE MIGRACION."
+msgstr "YOU MUST ACCEPT THE MIGRATION PROCESS."
+
+msgid "NOTA: ESTO PUEDE FALLAR Y REQUIRIR"
+msgstr "NOTE: THIS MAY FAIL AND REQUIRE A MANUAL"
+
+msgid "UNA IMPLENETACION MANUAL PARA COMPLETAR EL PROSESO."
+msgstr "DEPLOYMENT TO COMPLETE THE PROCESS."
+
+msgid "Migrar las configuraciones? [S/N]"
+msgstr "Migrate settings? [Y/N]"

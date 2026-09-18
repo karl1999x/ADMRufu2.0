@@ -1,0 +1,83 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "AYUDA!!!"
+msgstr "HELP!!!"
+
+msgid "BANNER DE CONECCION"
+msgstr "CONNECTION BANNER"
+
+msgid "se muestra antes de la autenticacion."
+msgstr "is displayed before authentication."
+
+msgid "es el mas usado desde hace tiempo."
+msgstr "it is the most used for a long time."
+
+msgid "BANNER AUTENTICACION + CHECKUSER"
+msgstr "AUTHENTICATION BANNER + CHECKUSER"
+
+msgid "este se muestra despues de la autenticacion."
+msgstr "this is displayed after authentication."
+
+msgid "este permite imprimir informacion del usuario."
+msgstr "this allows printing user information."
+
+msgid "funciona en ssh."
+msgstr "works in ssh."
+
+msgid "para tener el mismo efecto en dropbear"
+msgstr "to have the same effect on dropbear"
+
+msgid "requiere instalar el mod dropbear de @Rufu99"
+msgstr "requires installing dropbear mod by @Rufu99"
+
+msgid "USO DE CHECKUSER"
+msgstr "USE OF CHECKUSER"
+
+msgid "anade palabras claves en el codigo del banner."
+msgstr "add keywords to the banner code."
+
+msgid "seran remplazada por la informacion del usuario."
+msgstr "will be replaced by user information."
+
+msgid "PALABRAS CLAVES"
+msgstr "KEYWORDS"
+
+msgid "USER - sera remplazada por el nombre del usuario. "
+msgstr "USER - will be replaced by the user name."
+
+msgid "EXP - se remplaza por la fecha de expiracion."
+msgstr "EXP - will be replaced by the expiration date."
+
+msgid "DAYS - remplasada por dias restantes a la expiracion."
+msgstr "DAYS - will be replaced by days remaining until expiration."
+
+msgid "NOTA"
+msgstr "NOTE"
+
+msgid "si el dato de expiracion del usuario no se encuentra."
+msgstr "if the user's expiration data is not found."
+
+msgid "EXP y DAYS contendran la palabra 'never'"
+msgstr "EXP and DAYS will contain the word 'never"
+
+msgid "EJEMPLO"
+msgstr "EXAMPLE"
+
+msgid "ADMINISTRADOR BANNER SSH/DROPBEAR"
+msgstr "SSH/DROPBEAR BANNER ADMINISTRATOR"
+
+msgid "BANNER DE AUTENTICACION + CHECKUSER"
+msgstr "AUTHENTICATION BANNER + CHECKUSER"
+
+msgid "CREAR, EDITAR BANNER (nano)"
+msgstr "CREATE, EDIT BANNER (nano)"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "AYUDA"
+msgstr "HELP"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"

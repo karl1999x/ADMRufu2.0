@@ -1,0 +1,118 @@
+#!/bin/bash
+
+if [[ $# -eq 0 ]]; then
+	echo "Modo de uso"
+	echo ""
+	echo "  -Para activar el protocolo use el comando:"
+	echo ""
+	echo "    -Activar, default puerto 8080 aputa a 22 ssh:"
+	echo "      hcr --on"
+	echo ""
+	echo "    -Activar puerto 80, default apunto a 22 ssh"
+	echo "      hcr --on --port 80"
+	echo ""
+	echo "    -Activar puerto 80 apuntando a puerto 22 ssh"
+	echo "      hcr --on --port 80 --ssh 22"
+	echo ""
+	echo "  -Para desactivar el protocolo:"
+	echo "    hcr --off"
+	exit 1
+fi
+
+on=false
+off=false
+BHTTP_PORT="8080"
+SSH_PORT="22"
+
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -s|--ssh)	shift
+    			if [[ $1 =~ ^[0-9]+$ ]]; then
+					SSH_PORT=$1
+					shift
+				fi;;
+    -p|--port)	shift
+    			if [[ $1 =~ ^[0-9]+$ ]]; then
+					BHTTP_PORT=$1
+					shift	
+				fi;;
+    --on)		on=true
+    			shift;;
+    --off)		off=true
+    			shift;;
+    *) exit 1;;
+  esac
+done
+
+serv="/etc/systemd/system/hcr.service"
+bin="/usr/local/lib/hcr-server"
+
+if $on; then
+
+	if [[ ! -f $sev ]]; then
+		systemctl disable --now hcr
+		rm -rf $serv
+		systemctl daemon-reload
+	fi
+	
+	cp -f /etc/ADMRufu2.0/bin/hcr-server $bin
+	chmod +x $bin
+
+cat >/etc/systemd/system/hcr.service <<EOF
+[Unit]
+Description=HCR relay
+Documentation=file:/root/README.md
+Wants=network-online.target
+After=network-online.target ssh.service sshd.service sshgo.service
+StartLimitIntervalSec=60
+StartLimitBurst=3
+
+[Service]
+Type=exec
+User=root
+Group=root
+WorkingDirectory=/root
+ExecStart=/usr/local/lib/hcr-server --listen :$BHTTP_PORT --target 127.0.0.1:$SSH_PORT --transport plain --max-download-frame 2000 --download-poll-timeout 5s
+Restart=on-failure
+RestartSec=5s
+TimeoutStopSec=15s
+KillSignal=SIGTERM
+UMask=0077
+NoNewPrivileges=true
+CapabilityBoundingSet=
+AmbientCapabilities=
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=read-only
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+RestrictNamespaces=true
+MemoryDenyWriteExecute=false
+ReadOnlyPaths=/root
+LimitNOFILE=4096
+LimitCORE=0
+TasksMax=512
+MemoryMax=384M
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=hcr-server
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+systemctl daemon-reload
+systemctl enable --now hcr
+
+fi
+
+if $off; then
+	systemctl disable --now hcr
+	rm -rf $serv
+	systemctl daemon-reload
+
+	rm -rf $bin
+fi
+
+exit 0

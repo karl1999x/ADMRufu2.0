@@ -1,0 +1,35 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "ASIGNAR CLAVE DE USUAIRO ROOT"
+msgstr "ASSIGN ROOT USER KEY"
+
+msgid "TU CLAVE"
+msgstr "YOUR KEY"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "Guardar"
+msgstr "Save"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"
+
+msgid "falla al generar clave cifrada!"
+msgstr "Encrypted key generation failed!"
+
+msgid "Falla al asignar clave root"
+msgstr "Failed to assign root key"
+
+msgid "Clave root asignada con exito!"
+msgstr "Root key assigned successfully!"
+
+msgid "ADMINISTRACION DE ACCESO SSH AL SERVIDOR"
+msgstr "SSH ACCESS MANAGEMENT TO SERVER"
+
+msgid "ACTIVAR ACCESO ROOT"
+msgstr "ACTIVATE ROOT ACCESS"
+
+msgid "ASIGNAR CLAVE ROOT"
+msgstr "ASSIGN ROOT KEY"

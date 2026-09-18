@@ -1,0 +1,86 @@
+msgid "Nuevo Usuario"
+msgstr "New User"
+
+msgid "SERVICIO"
+msgstr "SERVICE"
+
+msgid "PROTOCOLO"
+msgstr "PROTOCOL"
+
+msgid "NOMBRE"
+msgstr "NAME"
+
+msgid "CLAVE"
+msgstr "PASS"
+
+msgid "falla al leer configurcion .json"
+msgstr "Failure when reading configuration .json"
+
+msgid "el Usuario ya existe!"
+msgstr "The user already exists!"
+
+msgid "falla al abrir configurcion .json"
+msgstr "Failure to open .json configuration"
+
+msgid "EXPIRA EN"
+msgstr "IT EXPIRES IN"
+
+msgid "Ver cliente json? [S/N]"
+msgstr "See Json Client? [Y/N]"
+
+msgid "UUID"
+msgstr "UUID"
+
+msgid "NO HAY PROTOCOLOS V2RAY/XRAY ACTIVOS"
+msgstr "NO V2RAY/XRAY PROTOCOLS ACTIVE"
+
+msgid "falla al instalar gestor de api"
+msgstr "Failure when installing API manager"
+
+msgid "ADMINISTRADOR DE USUARIOS V2RAY Y XRAY"
+msgstr "USER MANAGER V2RAY AND XRAY"
+
+msgid "NUEVO USUARIO"
+msgstr "NEW USER"
+
+msgid "ELIMINAR USUARIO"
+msgstr "DELETE USER"
+
+msgid "RENOVAR USUARIO"
+msgstr "RENEW USER"
+
+msgid "INFORMACION DE USUARIOS"
+msgstr "USER INFORMATION"
+
+msgid "Volver"
+msgstr "Return"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an option"
+
+msgid "falla al leer configuracion json"
+msgstr "Failure to read JSON settings"
+
+msgid "falla al crear nueva configuracion json"
+msgstr "Fails to create new json configuration"
+
+msgid "falla al abrir configuracion json"
+msgstr "Failure when opening JSON configuration"
+
+msgid "falla al eliminar el Usuario!"
+msgstr "Failure to remove the user!"
+
+msgid "Usuario eliminado con exito!"
+msgstr "User eliminated with success!"
+
+msgid "SELECTOR DE CONFIGURACION"
+msgstr "CONFIGURATION SELECTOR"
+
+msgid "SELECTOR DE CLIENTES V2RAY Y XRAY"
+msgstr "CUSTOMER SELECTOR V2RAY AND XRAY"
+
+msgid "NO HAY USUARIOS PARA MOSTRAR"
+msgstr "THERE ARE NO USERS TO SHOW"
+
+msgid "el api fallo, usuario no creado"
+msgstr "the api failed, user not created"

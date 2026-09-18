@@ -1,0 +1,93 @@
+#!/bin/bash
+
+if [[ $# -eq 0 ]]; then
+	echo "Modo de uso"
+	echo ""
+	echo "  -Para activar el protocolo use el comando:"
+	echo ""
+	echo "    -Activar, default puerto 8080 aputa a 22 ssh:"
+	echo "      btun --on"
+	echo ""
+	echo "    -Activar puerto 80, default apunto a 22 ssh"
+	echo "      btun --on --port 80"
+	echo ""
+	echo "    -Activar puerto 80 apuntando a puerto 22 ssh"
+	echo "      btun --on --port 80 --ssh 22"
+	echo ""
+	echo "  -Para desactivar el protocolo:"
+	echo "    btun --off"
+	exit 1
+fi
+
+on=false
+off=false
+BHTTP_PORT="8080"
+SSH_PORT="22"
+
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -s|--ssh)	shift
+    			if [[ $1 =~ ^[0-9]+$ ]]; then
+					SSH_PORT=$1
+					shift
+				fi;;
+    -p|--port)	shift
+    			if [[ $1 =~ ^[0-9]+$ ]]; then
+					BHTTP_PORT=$1
+					shift	
+				fi;;
+    --on)		on=true
+    			shift;;
+    --off)		off=true
+    			shift;;
+    *) exit 1;;
+  esac
+done
+
+serv="/etc/systemd/system/btun.service"
+bin="/usr/local/lib/bilola-server"
+
+if $on; then
+
+	if [[ ! -f $sev ]]; then
+		systemctl disable --now btun
+		rm -rf $serv
+		systemctl daemon-reload
+	fi
+	
+	cp -f /etc/ADMRufu2.0/bin/bilola-server $bin
+	chmod +x $bin
+
+cat >/etc/systemd/system/btun.service <<EOF
+[Unit]
+Description=Bilola BHTTP Go server
+After=network-online.target ssh.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/lib/bilola-server --listen 0.0.0.0:$BHTTP_PORT --target 127.0.0.1:$SSH_PORT
+Restart=on-failure
+RestartSec=3
+User=root
+LimitNOFILE=65536
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+systemctl daemon-reload
+systemctl enable --now btun
+
+fi
+
+if $off; then
+	systemctl disable --now btun
+	rm -rf $serv
+	systemctl daemon-reload
+
+	rm -rf $bin
+fi
+
+exit 0

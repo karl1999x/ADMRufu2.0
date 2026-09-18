@@ -1,0 +1,110 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "Generando par de claves"
+msgstr "Generating key pair"
+
+msgid "falla al copiar binario dnstt"
+msgstr "copying dnstt binary failed"
+
+msgid "Ingresa Tu Dominio NS"
+msgstr "Enter Your Domain NS"
+
+msgid "A QUE PROTOCOLO SE LE PERMITIRA EL TRAFICO?"
+msgstr "WHICH PROTOCOL WILL TRAFFIC BE ALLOWED?"
+
+msgid "CANCELAR"
+msgstr "CANCEL"
+
+msgid "INGRESA MANUALMENTE"
+msgstr "ENTER MANUALLY"
+
+msgid "Ingresa una opcion"
+msgstr "Enter an option"
+
+msgid "Ingresa un puerto local"
+msgstr "Enter a local port"
+
+msgid "PROTOCOLO PERMITIDO"
+msgstr "PROTOCOL ALLOWED"
+
+msgid "INSTALADOR SLOWDNS (DNSTT)"
+msgstr "SLOWDNS INSTALLER (DNSTT)"
+
+msgid "Confima que quiere desinstalar? [S/N]"
+msgstr "Confirm that you want to uninstall? [Y/N]"
+
+msgid "Confima que quiere reinstalar? [S/N]"
+msgstr "Confirm that you want to reinstall? [Y/N]"
+
+msgid "Confima que quiere reconfigurar? [S/N]"
+msgstr "Confirm that you want to reconfigure? [Y/N]"
+
+msgid "RECONFIGURAR SLOWDNS"
+msgstr "RECONFIGURE SLOWDNS"
+
+msgid "Usar par de claves existentes? [S/N]"
+msgstr "Use existing key pair? [Y/N]"
+
+msgid "Confima que quieres regenerar el par de claves? [S/N]"
+msgstr "Confirm that you want to regenerate the key pair? [Y/N]"
+
+msgid "Clave Privada"
+msgstr "Private Key"
+
+msgid "Clave Publica"
+msgstr "Public Key"
+
+msgid "MIS CLAVES SLOWDNS"
+msgstr "MY SLOWDNS KEYS"
+
+msgid "CLAVE PRIVADA"
+msgstr "PRIVATE KEY"
+
+msgid "CLAVE PUBLICA"
+msgstr "PUBLIC KEY"
+
+msgid "CLAVE PUB:"
+msgstr "PUB KEY:"
+
+msgid "ADMINISTRADOR DNSTT (SLOWDNS)"
+msgstr "DNSTT ADMINISTRATOR (SLOWDNS)"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "GENERAR NUEVO PAR DE CLAVES"
+msgstr "GENERATE NEW KEY PAIR"
+
+msgid "PAR DE CLAVES PERSONALES"
+msgstr "PERSONAL KEY PAIR"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESET SERVICE"
+
+msgid "INICIAR/PARAR SERVICIO"
+msgstr "START/STOP SERVICE"
+
+msgid "LOG SLOWDNS EN TIEMPO REAL"
+msgstr "REAL-TIME SLOWDNS LOG"
+
+msgid "REINSTALAR"
+msgstr "REINSTALL"
+
+msgid "DESINSTALAR"
+msgstr "UNINSTALL"
+
+msgid "INSTALAR SLOWDNS"
+msgstr "INSTALL SLOWDNS"
+
+msgid "MODIFICAR DOMINIO NS"
+msgstr "MODIFY NS DOMAIN"
+
+msgid "MODIFICAR PUERTO DE TRAFICO"
+msgstr "MODIFY TRAFFIC PORT"
+
+msgid "APLICAR"
+msgstr "APPLY"

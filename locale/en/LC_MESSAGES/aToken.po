@@ -1,0 +1,95 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "INSTALADOR ATOKEN"
+msgstr "ATOKEN INSTALLER"
+
+msgid "INGRESA LA CLAVE"
+msgstr "ENTER KEY"
+
+msgid "falla al copiar binario aToken"
+msgstr "failure to copy binary toToken"
+
+msgid "falla al guardar la clave"
+msgstr "failure to save key"
+
+msgid "falla al crear servicio aToken"
+msgstr "failure to create service toToken"
+
+msgid "Confima que quiere desinstalar? [S/N]"
+msgstr "Confirm that you want to uninstall? [Y/N]"
+
+msgid "PARAMETRO DE URL"
+msgstr "URL PARAMETER"
+
+msgid "VALOR HASH O TEXTO"
+msgstr "HASH OR TEXT VALUE"
+
+msgid "falla al crear archivo"
+msgstr "failure to create file"
+
+msgid "CONTENEDORES HASH"
+msgstr "HASH CONTAINERS"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"
+
+msgid "Contenedor eliminado:"
+msgstr "Deleted Container:"
+
+msgid "falla al leer el archivo"
+msgstr "failed to read file"
+
+msgid "LISTA DE DATOS HASH"
+msgstr "HASH DATA LIST"
+
+msgid "falla al recrear archivo"
+msgstr "failed to recreate file"
+
+msgid "AUTENTIFICADOR TOKEN EN LINEA"
+msgstr "ONLINE TOKEN AUTHENTICATION"
+
+msgid "AGREGAR CONTENEDOR HASH"
+msgstr "ADD HASH CONTAINER"
+
+msgid "ELIMINAR CONTENEDOR HASH"
+msgstr "DELETE HASH CONTAINER"
+
+msgid "AGREGAR DATOS HASH"
+msgstr "ADD HASH DATA"
+
+msgid "ELIMINAR DATOS HASH"
+msgstr "DELETE HASH DATA"
+
+msgid "VER DATOS HASH"
+msgstr "VIEW HASH DATA"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESET SERVICE"
+
+msgid "INICIAR/PARAR ATOKEN"
+msgstr "START/STOP ATOKEN"
+
+msgid "LOG DE AUTENTIFICACIONES ATOKEN"
+msgstr "ATOKEN AUTHENTICATION LOG"
+
+msgid "LOG EN TIEMPO REAL"
+msgstr "REAL-TIME LOG"
+
+msgid "LIMPIAR LOG"
+msgstr "CLEAR LOG"
+
+msgid "DESINSTALAR ATOKEN"
+msgstr "UNINSTALL ATOKEN"
+
+msgid "INSTALAR ATOKEN"
+msgstr "INSTALL ATOKEN"
+
+msgid "LOG DE AUTENTIFICACION"
+msgstr "AUTHENTICATION LOG"

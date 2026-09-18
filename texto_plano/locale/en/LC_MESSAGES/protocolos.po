@@ -1,0 +1,8 @@
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"
+
+msgid "ADMINISTRADOR DE PROTOCOLOS"
+msgstr "PROTOCOL MANAGER"
+
+msgid "Volver"
+msgstr "Back"

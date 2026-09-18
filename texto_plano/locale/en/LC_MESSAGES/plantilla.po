@@ -1,0 +1,2 @@
+msgid "Hola, bienvenido a tu progrma!"
+msgstr "Hello, welcome to your program!"

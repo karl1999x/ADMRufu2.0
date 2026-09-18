@@ -1,0 +1,101 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "NUEVO PUERTO SQUID"
+msgstr "NEW SQUID PORT"
+
+msgid "INSTALAR SQUID"
+msgstr "INSTALL SQUID"
+
+msgid "INGRESA PUERTOS CONSECUTIVOS"
+msgstr "ENTER CONSECUTIVE PORTS"
+
+msgid "SEPARADO POR UN ESPACIO"
+msgstr "SEPARATED BY A SPACE"
+
+msgid "EJ:"
+msgstr "EX"
+
+msgid "Ingresa tus puertos"
+msgstr "Enter your ports"
+
+msgid "INVALIDO!"
+msgstr "INVALID!"
+
+msgid "EN USO!"
+msgstr "IN USE!"
+
+msgid "DISPONIBLE!"
+msgstr "AVAILABLE!"
+
+msgid "VOLVER"
+msgstr "RETURN"
+
+msgid "REINTENTAR"
+msgstr "RETRY"
+
+msgid "GUARDAR"
+msgstr "SAVE"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"
+
+msgid "INSTALADOR SQUID"
+msgstr "SQUID INSTALLER"
+
+msgid "Confima que quiere reconfigurar? [S/N]"
+msgstr "Confirm that you want to reconfigure? [Y/N]"
+
+msgid "RECONFIGURANDO SQUID"
+msgstr "RECONFIGURING SQUID"
+
+msgid "REMOVER PUERTO SQUID"
+msgstr "REMOVE SQUID PORT"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "ADMINISTRADOR SQUID"
+msgstr "SQUID ADMINISTRATOR"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "AGREGAR UN PUERTO"
+msgstr "ADD A PORT"
+
+msgid "QUITAR UN PUERTO"
+msgstr "REMOVE A PORT"
+
+msgid "MODIFICAR ACL"
+msgstr "MODIFY ACL"
+
+msgid "MODIFICAR ACCESS"
+msgstr "MODIFY ACCESS"
+
+msgid "MODIFICAR PORTS"
+msgstr "MODIFY PORTS"
+
+msgid "MODIFICAR CACHING"
+msgstr "MODIFY CACHING"
+
+msgid "MODIFICAR HOSTNAME"
+msgstr "MODIFY HOSTNAME"
+
+msgid "RECARGAR SQUID"
+msgstr "RELOAD SQUID"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESET SERVICE"
+
+msgid "INICIAR/PARAR SERVICIO"
+msgstr "START/STOP SERVICE"
+
+msgid "LOG DE CONECCIONES"
+msgstr "CONNECTION LOG"
+
+msgid "lOG DE CACHE Y ERRORES"
+msgstr "CACHE AND ERRORS LOG"
+
+msgid "DESINSTALAR"
+msgstr "UNINSTALL"

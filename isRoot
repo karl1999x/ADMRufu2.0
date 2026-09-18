@@ -1,0 +1,48 @@
+#!/bin/bash
+
+txt1="\e[31m    Se requiere inicio directo como root\e[0m"
+txt2="\e[31m    ADMRufu2.0 puede no funcionar correctamente!\e[0m\n"
+
+# Verificar si el ID de usuario real es root
+if [[ "$(id -u)" -ne 0 ]]; then
+    echo -e "$txt1"
+    echo -e "$txt2"
+    exit 1
+fi
+
+# Verificar si se usó sudo o su
+if [[ -n "$SUDO_USER" && "$SUDO_USER" != "root" ]]; then
+    echo -e "$txt1"
+    echo -e "$txt2"
+    exit 1
+fi
+
+if [[ -n "$LOGNAME" && "$LOGNAME" != "root" ]]; then
+    echo -e "$txt1"
+    echo -e "$txt2"
+    exit 1
+fi
+
+if [[ $(systemctl --user is-enabled update-adm) != "enabled" ]]; then
+	systemctl --user enable update-adm > /dev/null 2>&1
+fi
+
+if [[ $(systemctl --user is-active update-adm) != "active" ]]; then
+	systemctl --user start update-adm > /dev/null 2>&1
+fi
+
+if [[ $(systemctl --user is-enabled monitor-cpu) != "enabled" ]]; then
+	systemctl --user enable monitor-cpu > /dev/null 2>&1
+fi
+
+if [[ $(systemctl --user is-active monitor-cpu) != "active" ]]; then
+	systemctl --user start monitor-cpu > /dev/null 2>&1
+fi
+
+if [[ $(systemctl --user is-enabled contador) != "enabled" ]]; then
+	systemctl --user enable contador > /dev/null 2>&1
+fi
+
+if [[ $(systemctl --user is-active contador) != "active" ]]; then
+	systemctl --user start contador > /dev/null 2>&1
+fi

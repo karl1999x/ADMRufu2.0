@@ -1,0 +1,153 @@
+msgid "Ingresa una Opcion"
+msgstr "Enter an option"
+
+msgid "DOMINIO"
+msgstr "DOMAIN"
+
+msgid "usar este path rand?"
+msgstr "Use this path rand?"
+
+msgid "[S/N]"
+msgstr "[Y/N]"
+
+msgid "TU DIRECCION (path)"
+msgstr "YOUR ADDRESS (path)"
+
+msgid "NOMBRE"
+msgstr "NAME"
+
+msgid "INSTALADOR V2RAY Y XRAY"
+msgstr "V2RAY AND XRAY INSTALLER"
+
+msgid "falla al crear directorios de trabajo!"
+msgstr "Failure to create work directories!"
+
+msgid "PUERTO"
+msgstr "PORT"
+
+msgid "CANSELAR"
+msgstr "CANSELAR"
+
+msgid "REINTENTAR"
+msgstr "REINTEAR"
+
+msgid "APLICAR"
+msgstr "APPLY"
+
+msgid "falla al crear Access.log y Error.log"
+msgstr "Failure when creating access.log and error.log"
+
+msgid "Descargando v2ray-linux-64"
+msgstr "Downloading V2Ray-Linux-64"
+
+msgid "Instalando v2ray"
+msgstr "Installing v2ray"
+
+msgid "Descargando Xray-linux-64"
+msgstr "Downloading xray-linux-64"
+
+msgid "Instalando xray"
+msgstr "Installing xray"
+
+msgid "falla al crear servicios v2ray@ y xray@"
+msgstr "Failure when creating v2ray services@ and xray@"
+
+msgid "falla al crear archivo de configuracion json"
+msgstr "Failure to create JSON configuration file"
+
+msgid "VER LOG ACCESS"
+msgstr "VER LOG ACCESS"
+
+msgid "LIMPIAR LOG ACCESS"
+msgstr "CLEAN LOG ACCESS"
+
+msgid "VER LOG ERROR"
+msgstr "SEE ERROR LOG"
+
+msgid "LIMPIAR LOG ERROR"
+msgstr "CLEAN ERROR LOG"
+
+msgid "Volver"
+msgstr "Return"
+
+msgid "ADMINISTRADOR V2RAY Y XRAY"
+msgstr "V2RAY ADMINISTRATOR AND XRAY"
+
+msgid "AGREGAR PROTOCOLO V2RAY/XRAY"
+msgstr "ADD V2RAY/XRAY PROTOCOL"
+
+msgid "QUITAR PROTOCOLO V2RAY/XRAY"
+msgstr "REMOVE V2RAY/XRAY PROTOCOL"
+
+msgid "VER CONFIGIRACION JSON"
+msgstr "SEE JSON SETTINGS"
+
+msgid "EDITAR CONFIGIRACION JSON"
+msgstr "EDIT JSON SETTINGS"
+
+msgid "LOG ACCESS/ERROR"
+msgstr "LOG ACCESS/ERROR"
+
+msgid "LOG EN TIEMPO REAL"
+msgstr "REAL -TIME LOG"
+
+msgid "TODO EL LOG"
+msgstr "ALL LOG"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATE"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESTART SERVICE"
+
+msgid "INICIAR/PARAR SERVICIOS"
+msgstr "START/STOP SERVICES"
+
+msgid "RECONFIGURAR"
+msgstr "RECONFIGURE"
+
+msgid "DESINSTALAR"
+msgstr "UNINSTALL"
+
+msgid "INSTALAR V2RAY/XRAY"
+msgstr "INSTALL V2RAY/XRAY"
+
+msgid "NUEVA CONFIGURACION V2RAY Y XRAY"
+msgstr "NEW V2RAY AND XRAY SETTINGS"
+
+msgid "RED"
+msgstr "RED"
+
+msgid "PROTOCOLO"
+msgstr "PROTOCOL"
+
+msgid "ESTO ELIMINARA TODAS LAS CONFIGURACIONES EXISTENTES"
+msgstr "THIS WILL ELIMINATE ALL EXISTING CONFIGURATIONS"
+
+msgid "Y REINICIARA COMO UNA INSTALACION NUEVA"
+msgstr "AND RESTART AS A NEW INSTALLATION"
+
+msgid "Desea continuar? [S/N]"
+msgstr "Do you want to continue? [S/n]"
+
+msgid "RECONFIGURAR V2RAY Y XRAY"
+msgstr "RECONFIGURE V2RAY AND XRAY"
+
+msgid "SELECTOR DE CONFIGURACION"
+msgstr "CONFIGURATION SELECTOR"
+
+msgid "TIPO"
+msgstr "GUY"
+
+msgid "No hay servicios para adminstrar!"
+msgstr "There are no services to manage!"
+
+msgid "DESINSTALADOR V2RAY Y XRAY"
+msgstr "V2RAY AND XRAY UNINSTALLER"
+
+msgid "falla al obtener datos de la configuracion json"
+msgstr "Failure to obtain data from the JSON settings"
+
+msgid "ACTIVAR/DESACTIVAR LOG"
+msgstr "ENABLE/DEACTIVATE LOG"
+

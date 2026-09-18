@@ -1,0 +1,41 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "falla al copiar binario autoStart"
+msgstr "failure to copy autoStart binary"
+
+msgid "REGLAS DE PALABRAS BLOQUEADAS"
+msgstr "BLOCKED WORDS RULES"
+
+msgid "REGLAS DE PUERTOS BLOQUEADOS"
+msgstr "BLOCKED PORT RULES"
+
+msgid "BLOQUEO DE TORRENT, PUERTOS Y PALABRAS CLAVES"
+msgstr "BLOCKING TORRENT, PORTS AND KEYWORDS"
+
+msgid "BLOUEAR PALABRAS CLAVES Y TORRENT"
+msgstr "BLOCK KEYWORDS AND TORRENT"
+
+msgid "BLOQUEAR PUERTOS SAPAM"
+msgstr "BLOCK SAPAM PORTS"
+
+msgid "VER REGLAS DE PALABRAS BLOQUEADAS"
+msgstr "VIEW BLOCKED WORDS RULES"
+
+msgid "VER REGLAS DE PUERTOS BLOQUEADOS"
+msgstr "VIEW BLOCKED PORT RULES"
+
+msgid "MODIFICAR LISTA DE PALABRAS BLOQUEADAS"
+msgstr "MODIFY WORDS LIST BLOCKED"
+
+msgid "MODIFICAR LISTA DE PUERTOS BLOQUEADOS"
+msgstr "MODIFY BLOCKED PORTS LIST"
+
+msgid "AUTO INICIAR CON EL SISTEMA"
+msgstr "AUTO START WITH SYSTEM"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"

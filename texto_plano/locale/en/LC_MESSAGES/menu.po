@@ -1,0 +1,131 @@
+msgid "Fecha:"
+msgstr "Date: "
+
+msgid "Hora:"
+msgstr "Time:"
+
+msgid "Libre:"
+msgstr "Free: "
+
+msgid "Disc"
+msgstr "Disk"
+
+msgid "Dispo:"
+msgstr "Avail:"
+
+msgid "En Uso:"
+msgstr "In Use:"
+
+msgid "Cache:"
+msgstr "Cache:"
+
+msgid "Buffer:"
+msgstr "Buffer:"
+
+msgid "Total:"
+msgstr "Total:"
+
+msgid "Cores:"
+msgstr "Cores:"
+
+msgid "ACTIVA:"
+msgstr "ACTIVE:"
+
+msgid "EXPIRADA:"
+msgstr "EXPIRED: "
+
+msgid "BLOQUEADA:"
+msgstr "BLOCKED:  "
+
+msgid "TOTAL:"
+msgstr "TOTAL:"
+
+msgid "ADMINISTRAR CUENTAS"
+msgstr "MANAGE ACCOUNTS"
+
+msgid "CONFIGURACION DE PROTOCOLOS"
+msgstr "PROTOCOL CONFIGURATION"
+
+msgid "HERRAMIENTAS EXTRAS"
+msgstr "EXTRA TOOLS"
+
+msgid "DESINSTALAR PANEL"
+msgstr "UNINSTALL PANEL"
+
+msgid "CONFIGURACION DEL SCRIPT"
+msgstr "SCRIPT CONFIGURATION"
+
+msgid "DESINSTALAR"
+msgstr "UNINSTALL"
+
+msgid "SALIR DEL VPS"
+msgstr " EXIT VPS "
+
+msgid "SALIR DEL SCRIPT"
+msgstr " EXIT SCRIPT "
+
+msgid "REINICIAR VPS"
+msgstr " RESTART VPS "
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"
+
+msgid "falla al cerrar la secion!"
+msgstr "failed to log out!"
+
+msgid "INFORMACION DEL SISTEMA"
+msgstr "SYSTEM INFORMATION"
+
+msgid "CONTADOR DE CONECCIONES Y CUENTAS"
+msgstr "CONNECTION AND ACCOUNT COUNTER"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "Guardar"
+msgstr "Save"
+
+msgid "ACTIVA"
+msgstr "ACTIVE"
+
+msgid "EXPIRADA"
+msgstr "EXPIRED"
+
+msgid "BLOQUEADA"
+msgstr "BLOCKED"
+
+msgid "TOTAL"
+msgstr "TOTAL"
+
+msgid "INFORMACION DE MEMORIA SWAP"
+msgstr "SWAP MEMORY INFORMATION"
+
+msgid "INFORMACION DE MEMORIA RAM"
+msgstr "RAM MEMORY INFORMATION"
+
+msgid "INFORMACION DE DISCO Y CPU"
+msgstr "DISK AND CPU INFORMATION"
+
+msgid "ADMINISTRADOR DE CERTIFICADOS SSL"
+msgstr "SSL CERTIFICATE MANAGER"
+
+msgid "ADMINISTRADOR BANNER SSH/DROPBEAR"
+msgstr "SSH/DROPBEAR BANNER ADMINISTRATOR"
+
+msgid "CONFIGURAR CLAVE Y ACCESO ROOT"
+msgstr "SET UP PASSWORD AND ROOT ACCESS"
+
+msgid "BLOQUEO DE TORRENT, PUERTOS Y PALABRAS CLAVES"
+msgstr "BLOCKING TORRENT, PORTS AND KEYWORDS"
+
+msgid "ADMINISTRADOR FAIL2BAN"
+msgstr "FAIL2BAN ADMINISTRATOR"
+
+msgid "PROTECCION DDOS"
+msgstr "DDOS PROTECTION"
+
+msgid "AUTO-INICIAR SCRIPT"
+msgstr "AUTO-START SCRIPT"
+
+msgid "MODIFICAR ZONA HORARIA"
+msgstr "MODIFY TIME ZONE"

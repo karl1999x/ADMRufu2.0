@@ -1,0 +1,44 @@
+msgid "DESINSTALAR FAIL2BAN"
+msgstr "UNINSTALL FAIL2BAN"
+
+msgid "Desea continuar? [S/N]"
+msgstr "Do you want to continue? [Y/N]"
+
+msgid "MODIFICAR TIMEPO DE BAN"
+msgstr "MODIFY BAN TIME"
+
+msgid "Ingresa el tiempo"
+msgstr "Enter the time"
+
+msgid "MODIFICAR PERIODO DE BAN"
+msgstr "MODIFY BAN PERIOD"
+
+msgid "MODIFICAR NUMERO DE INTENTOS"
+msgstr "MODIFY NUMBER OF ATTEMPTS"
+
+msgid "Ingresa un numero de intentos"
+msgstr "Enter a number of attempts"
+
+msgid "ADMINISTRADOR FAIL2BAN"
+msgstr "FAIL2BAN ADMINISTRATOR"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "MODIFICAR MANUAL (nano)"
+msgstr "MODIFY MANUAL (nano)"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "INICIAR/DETENER SERVICIO"
+msgstr "START/STOP SERVICE"
+
+msgid "LOG FAIL2BAN"
+msgstr "LOG FAIL2BAN"
+
+msgid "INSTALAR FAIL2BAN"
+msgstr "INSTALL FAIL2BAN"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"

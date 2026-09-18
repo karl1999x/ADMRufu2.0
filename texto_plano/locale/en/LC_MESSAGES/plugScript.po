@@ -1,0 +1,81 @@
+msgid "Presione enter para continuar"
+msgstr "Press Enter to continue"
+
+msgid "CREAR UN SCRIPT"
+msgstr "CREATE A SCRIPT"
+
+msgid "Ingresa un nombre"
+msgstr "Enter a name"
+
+msgid "El nombre ya existe"
+msgstr "The name already exists"
+
+msgid "falla al crear"
+msgstr "Failure when creating"
+
+msgid "falla al activar"
+msgstr "failure when activating"
+
+msgid "Activado con exito"
+msgstr "Activated with success"
+
+msgid "Sin script validos"
+msgstr "No valid script"
+
+msgid "Volver"
+msgstr "Return"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an option"
+
+msgid "ELIMIAR UN SCRIPT"
+msgstr "ELIMINATE A SCRIPT"
+
+msgid "removido"
+msgstr "removed"
+
+msgid "ACTIVAR/DESACTIVAR SCRITP"
+msgstr "ACTIVATE/DEACTIVATE SCRIPT"
+
+msgid "Desactivado"
+msgstr "Disabled"
+
+msgid "ASIGNAR PERMISOS DE EJECUCION"
+msgstr "ASSIGN EXECUTION PERMITS"
+
+msgid "ELIMIAR TODO LOS SCRIPT"
+msgstr "ELIMINATE ALL SCRIPT"
+
+msgid "desea continuar [S/N]"
+msgstr "You want to continue [Y/N]"
+
+msgid "RESPALDAR SCRIPT"
+msgstr "BACKUP SCRIPT"
+
+msgid "Error al crear ZIP"
+msgstr "Error creating ZIP"
+
+msgid "Falla al cerrar ZIP"
+msgstr "Failure when closing ZIP"
+
+msgid "Copia creada"
+msgstr "Created copy"
+
+msgid "sin respaldos"
+msgstr "Without backups"
+
+msgid "RESTAURA RESPALDO"
+msgstr "RESTORE BACKUP"
+
+msgid "plugins script restaurado"
+msgstr "Restored script plugins"
+
+msgid "AYUDA"
+msgstr "HELP"
+
+msgid "ADMINISTRADOR DE PLUGINS"
+msgstr "PLUGINS ADMINISTRATOR"
+
+msgid "Ayuda"
+msgstr "Help"
+

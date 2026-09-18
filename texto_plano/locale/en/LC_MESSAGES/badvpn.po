@@ -1,0 +1,86 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "INGRESA EL PUERTO"
+msgstr "ENTER PORT"
+
+msgid "EN USO!"
+msgstr "IN USE!"
+
+msgid "PUERTO BADVPN-UDPGW"
+msgstr "BADVPN-UDPGW PORT"
+
+msgid "falla al copiar binario badvpn-udpgw"
+msgstr "failed to copy badvpn-udpgw binary"
+
+msgid "INSTALADOR BADVPN-UDPGW"
+msgstr "BADVPN-UDPGW INSTALLER"
+
+msgid "Confima que quiere desinstalar? [S/N]"
+msgstr "Are you sure you want to uninstall? [Y/N]"
+
+msgid "Confima que quiere reinstalar? [S/N]"
+msgstr "Are you sure you want to reinstall? [Y/N]"
+
+msgid "Confima que quiere reconfigurar? [S/N]"
+msgstr "Are you sure you want to reconfigure? [Y/N]"
+
+msgid "NUEVO PUERTO BADVPN-UDPGW"
+msgstr "NEW BADVPN-UDPGW PORT"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an option"
+
+msgid "REMOVER PUERTO BADVPN-UDPGW"
+msgstr "REMOVE PORT BADVPN-UDPGW"
+
+msgid "INICIAR O PARAR PUERTO BADVPN-UDPGW"
+msgstr "START OR STOP BADVPN-UDPGW PORT"
+
+msgid "VER ESTADO DEL SERVICIO BADVPN-UDPGW"
+msgstr "VIEW BADVPN-UDPGW SERVICE STATUS"
+
+msgid "REINICIAR PUERTO BADVPN-UDPGW"
+msgstr "RESET BADVPN-UDPGW PORT"
+
+msgid "VER LOG DE PUERTO BADVPN-UDPGW"
+msgstr "VIEW BADVPN-UDPGW PORT LOG"
+
+msgid "VER LOG TIEMPO REAL DE PUERTO BADVPN-UDPGW"
+msgstr "VIEW BADVPN-UDPGW PORT REAL TIME LOG"
+
+msgid "ADMINISTRADOR BADVPN-UDPGW"
+msgstr "BADVPN-UDPGW ADMINISTRATOR"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "AGREGAR PUERTO BADVPN-UDPGW"
+msgstr "ADD BADVPN-UDPGW PORT"
+
+msgid "RECONFIGURAR BADVPN-UDPGW"
+msgstr "RECONFIGURE BADVPN-UDPGW"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESET SERVICE"
+
+msgid "INICIAR/PARAR SERVICIO"
+msgstr "START/STOP SERVICE"
+
+msgid "LOG BADVPN-UDPGW EN TIEMPO REAL"
+msgstr "REAL-TIME BADVPN-UDPGW LOG"
+
+msgid "REINSTALAR"
+msgstr "REINSTALL"
+
+msgid "DESINSTALAR"
+msgstr "UNINSTALL"
+
+msgid "INSTALAR BADVPN-UDPGW"
+msgstr "INSTALL BADVPN-UDPGW"
+
+msgid "ACTIVAR/DESACTIVAR ALMACEN DE LOG"
+msgstr "ENABLE/DEACTIVATE LOG STORE"

@@ -1,0 +1,146 @@
+msgid "INSTALANDO MODULOS PYTHON"
+msgstr "INSTALLING PYTHON MODULES"
+
+msgid "VOLVER"
+msgstr "RETURN"
+
+msgid "EN USO!"
+msgstr "IN USE!"
+
+msgid "INGRESA EL PUERTO"
+msgstr "ENTER THE PORT"
+
+msgid "Falla al crear directorio socksPY"
+msgstr "Failed to create socksPY directory"
+
+msgid "Generando modulo PPub2"
+msgstr "Generating PPub2 module"
+
+msgid "Generando modulo PPub3"
+msgstr "Generating PPub3 module"
+
+msgid "Generando modulo PDirect2"
+msgstr "Generating PDirect2 module"
+
+msgid "Generando modulo PDirect3"
+msgstr "Generating PDirect3 module"
+
+msgid "INGRESA TU MINIBANNER"
+msgstr "ENTER YOUR MINIBANNER"
+
+msgid "CONFIGURAR"
+msgstr "CONFIGURE"
+
+msgid "SIMPLE (PUBLICO)"
+msgstr "SIMPLE (PUBLIC)"
+
+msgid "Falla al generar el servicio"
+msgstr "Failed to generate service"
+
+msgid "A QUE PUERTO SERA REDIRIGIDO EL TRAFICO?"
+msgstr "TO WHICH PORT WILL TRAFFIC BE REDIRECTED?"
+
+msgid "CANCELAR"
+msgstr "CANCEL"
+
+msgid "INGRESA MANUALMENTE"
+msgstr "ENTER MANUALLY"
+
+msgid "Ingresa una opcion"
+msgstr "Enter an option"
+
+msgid "Ingresa un puerto local"
+msgstr "Enter a local port"
+
+msgid "TRAFICO REDIRIGIDO AL PUERTO"
+msgstr "TRAFFIC REDIRECTED TO THE PORT"
+
+msgid "Enter aplica configuracion predeterminada (200)"
+msgstr "Enter apply default settings (200)"
+
+msgid "101 Para websocket"
+msgstr "101 For websocket"
+
+msgid "IGRESA UN ESTADO DE REPUESTA"
+msgstr "ENTER A STATE OF RESPONSE"
+
+msgid "RESPUESTA"
+msgstr "ANSWER"
+
+msgid "Ej"
+msgstr "Ex"
+
+msgid "ENCABESADO PERSONALIZADO"
+msgstr "CUSTOM HEADER"
+
+msgid "ENCABESADO"
+msgstr "HEADER"
+
+msgid "DIRECTO"
+msgstr "DIRECT"
+
+msgid "PUERTO PARA SOCKS PYTHON"
+msgstr "PYTHON SOCKS PORT"
+
+msgid "ADMINISTRACION DE SERVICIOS PYTHON"
+msgstr "PYTHON SERVICE MANAGEMENT"
+
+msgid "Estado del servicio"
+msgstr "Service status"
+
+msgid "ADMINISTRCION DE PUERTOS PYTHON"
+msgstr "PYTHON PORT MANAGEMENT"
+
+msgid "LOGS Y REGISTROS"
+msgstr "LOGS AND REGISTERS"
+
+msgid "LOGS EN TIEMPO REAL"
+msgstr "REAL TIME LOGS"
+
+msgid "TODO EL REGISTRO"
+msgstr "ALL RECORD"
+
+msgid "SELECCIONA EL PUERTO"
+msgstr "SELECT THE PORT"
+
+msgid "LIMPIAR LOGS Y REGISTROS"
+msgstr "CLEAR LOGS AND REGISTERS"
+
+msgid "ADMINISTRADOR DE SOCKS PYTHON"
+msgstr "PYTHON SOCKS MANAGER"
+
+msgid "PUERTOS"
+msgstr "PORTS"
+
+msgid "SOCKS PYTHON2 SIMPLE"
+msgstr "SIMPLE PYTHON2 SOCKS"
+
+msgid "SOCKS PYTHON3 SIMPLE"
+msgstr "SIMPLE PYTHON3 SOCKS"
+
+msgid "SOCKS PYTHON2 DIRECTO"
+msgstr "SOCKS  PYTHON2 DIRECT"
+
+msgid "SOCKS PYTHON3 DIRECTO"
+msgstr "SOCKS  PYTHON3 DIRECT"
+
+msgid "Falla al crear directorio de trabajo socksPY"
+msgstr "Failed to create socksPY working directory"
+
+msgid "Falla al instalar los paquetes python2 y python3"
+msgstr "Failed to install python2 and python3 packages"
+
+msgid "resuelve este problema manualmete e intenta de nuevo"
+msgstr "Please resolve this issue manually and try again."
+
+msgid "REINSTALAR MODULOS PYTHON"
+msgstr "REINSTALL PYTHON MODULES"
+
+msgid "ESTADO DE SERVICIOS"
+msgstr "SERVICE STATUS"
+
+msgid "DETENER TODO LOS PUERTO Y SERVICIOS"
+msgstr "STOP ALL PORT AND SERVICES"
+
+msgid "DETENER UN PUERTO"
+msgstr "STOP A PORT"

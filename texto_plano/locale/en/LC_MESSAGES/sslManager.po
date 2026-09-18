@@ -1,0 +1,95 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "SELECCIONA EL CERTIFICADO PARA ADMINISTRAR"
+msgstr "SELECT CERTIFICATE TO MANAGE"
+
+msgid "Volver"
+msgstr "Return"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"
+
+msgid "removiendo"
+msgstr "removing"
+
+msgid "Verificar que los puerto 80 y 443"
+msgstr "Verify that ports 80 and 443"
+
+msgid "esten libres temporalmente"
+msgstr "are temporarily free"
+
+msgid "e intentar nuevamante"
+msgstr "and try again"
+
+msgid "INFORMACION DEL CERTIFICADO SSL"
+msgstr "SSL CERTIFICATE INFORMATION"
+
+msgid "RENOVAR"
+msgstr "RENEW"
+
+msgid "REMOVER"
+msgstr "REMOVE"
+
+msgid "DESACTIVAR"
+msgstr "DEACTIVATE"
+
+msgid "ACTIVAR"
+msgstr "ACTIVATE"
+
+msgid "La ip del dominio no coincide con la ip del servidor vps"
+msgstr "Domain IP does not match the IP of the VPS server"
+
+msgid "verifica en tu administrador de dominio"
+msgstr "check your domain manager"
+
+msgid "falla al generar el certificado ssl"
+msgstr "failed to generate ssl certificate"
+
+msgid "verifica el log de aqui arriba"
+msgstr "check the log above"
+
+msgid "e intentar de nuevo"
+msgstr "and try again"
+
+msgid "falla al configurar el servidor"
+msgstr "failed to configure the server"
+
+msgid "salir del script, ingresar el comando \"sudo su\""
+msgstr "exit the script, enter the command \"sudo su\""
+
+msgid "GENERADOR DE CERTIFICADOS SSL"
+msgstr "CERTIFICATE GENERATOR SSL"
+
+msgid "Ingresa tu dominio"
+msgstr "Enter your domain"
+
+msgid "falla al iniciar secion el servidor Zerossl"
+msgstr "Zerossl server login failed"
+
+msgid "Tu correo asociado a Zerossl"
+msgstr "Your email associated with Zerossl"
+
+msgid "APLICA TU CERTIFICADO SSL"
+msgstr "APPLY YOUR SSL CERTIFICATE"
+
+msgid "enter para ingresar el certificado ssl"
+msgstr "enter to enter the ssl certificate"
+
+msgid "enter para ingresar la llave ssl (key)"
+msgstr "enter to enter the ssl key"
+
+msgid "ADMINISTRADOR DE CERTIFICADOS SSL"
+msgstr "SSL CERTIFICATE MANAGER"
+
+msgid "ADMINISTRAR CERTIFICADOS"
+msgstr "MANAGE CERTIFICATES"
+
+msgid "AGREGAR UN NUEVO CERTIFICADO SSL"
+msgstr "ADD A NEW SSL CERTIFICATE"
+
+msgid "DESINSTALAR ACME.SH"
+msgstr "UNINSTALL ACME.SH"
+
+msgid "INSTALAR ADMINISTRADOR ACME.SH"
+msgstr "INSTALL ADMINISTRATOR ACME.SH"

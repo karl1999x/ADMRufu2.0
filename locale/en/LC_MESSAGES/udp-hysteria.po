@@ -1,0 +1,120 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "INGRESA EL PUERTO"
+msgstr "ENTER PORT"
+
+msgid "EN USO!"
+msgstr "IN USE!"
+
+msgid "PUERTO UDP"
+msgstr "UDP PORT"
+
+msgid "Ingresa un rango o puerto, para la redirecion de trafico"
+msgstr "Enter a range or port, for traffic redirection"
+
+msgid "Ingresa Tu Rango Iptables"
+msgstr "Enter Your Iptables Range"
+
+msgid "RANGOS IPTABLES"
+msgstr "IPTABLES RANGES"
+
+msgid "falla al copiar binario udp-hysteria"
+msgstr "failed to copy udp-hysteria binary"
+
+msgid "falla al copiar binario autSSH"
+msgstr "failed to copy autSSH binary"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"
+
+msgid "DOMINIO"
+msgstr "DOMAIN"
+
+msgid "lista de dominios certificados"
+msgstr "list of certified domains"
+
+msgid "INSTALADOR UDP-HYSTERIA"
+msgstr "UDP-HYSTERIA INSTALLER"
+
+msgid "Confima que quiere desinstalar? [S/N]"
+msgstr "Confirm that you want to uninstall? [Y/N]"
+
+msgid "Confima que quiere reinstalar? [S/N]"
+msgstr "Confirm that you want to reinstall? [Y/N]"
+
+msgid "Confima que quiere reconfigurar? [S/N]"
+msgstr "Confirm that you want to reconfigure? [Y/N]"
+
+msgid "ADMINISTRADOR UDP-HYSTERIA"
+msgstr "UDP-HYSTERIA ADMINISTRATOR"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "RECONFIGURAR UDP-HYSTERIA"
+msgstr "RECONFIGURE UDP-HYSTERIA"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESET SERVICE"
+
+msgid "INICIAR/PARAR SERVICIO"
+msgstr "START/STOP SERVICE"
+
+msgid "LOG UDP-HYSTERIA EN TIEMPO REAL"
+msgstr "UDP-HYSTERIA REAL-TIME LOG"
+
+msgid "REINSTALAR"
+msgstr "REINSTALL"
+
+msgid "DESINSTALAR"
+msgstr "UNINSTALL"
+
+msgid "INSTALAR UDP-HYSTERIA"
+msgstr "INSTALL UDP-HYSTERIA"
+
+msgid "MODIFICAR OBFS"
+msgstr "MODIFY OBFS"
+
+msgid "Ingresa Tu OBFS"
+msgstr "Enter Your OBFS"
+
+msgid "NUEVO OBFS"
+msgstr "NEW OBFS"
+
+msgid "Canselar"
+msgstr "Cancel"
+
+msgid "Reintentar"
+msgstr "Retry"
+
+msgid "Guardar"
+msgstr "Save"
+
+msgid "falla al leer config.json"
+msgstr "failed to read config.json"
+
+msgid "falla al cargar los datos json"
+msgstr "failed to load json data"
+
+msgid "falla al abrir config.json"
+msgstr "failed to open config.json"
+
+msgid "falla al abrir config.yaml"
+msgstr "failed to open config.yaml"
+
+msgid "falla al procesar el archivo config.yaml"
+msgstr "failed to process config.yaml file"
+
+
+
+
+
+
+
+
+
+

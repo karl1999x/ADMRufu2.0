@@ -1,0 +1,69 @@
+msgid "Presione enter para continuar"
+msgstr "Press Enter to continue"
+
+msgid "falla al copiar binario ddos"
+msgstr "Failure when copying ddos"
+
+msgid "PUERTOS A MONITOREAR"
+msgstr "PORTS TO MONITOR"
+
+msgid "MAXIMO DE INTENTOS"
+msgstr "MAXIMUM ATTEMPTS"
+
+msgid "TIEMPO DE BLOQUEO, EN MINUTOS"
+msgstr "LOCK TIME, IN MINUTES"
+
+msgid "LISTA BLANCA DE IPS"
+msgstr "WHITE IPS LIST"
+
+msgid "INSTALADOR DDOS"
+msgstr "DDOS INSTALLER"
+
+msgid "Datos invalidos invalidos, intente de nuevo!"
+msgstr "Invalid Data, try again!"
+
+msgid "Falla al crear directorio ddos"
+msgstr "Failure to create ddos directory"
+
+msgid "Confima que quiere reinstalar? [S/N]"
+msgstr "He confesses that he wants to reinstall? [Y/N]"
+
+msgid "Confima que quiere desinstalar? [S/N]"
+msgstr "It confesses what do you want to uninstall? [Y/N]"
+
+msgid "PUERTOS MONITOREADOS"
+msgstr "MONITORED PORTS"
+
+msgid "ADMINISTRADOR DDOS"
+msgstr "ADMINISTRATOR DDOS"
+
+msgid "Volver"
+msgstr "Return"
+
+msgid "ESTADO DEL SEVICIO"
+msgstr "SERVICE STATE"
+
+msgid "REINCIAR EL SEVICIO"
+msgstr "RESTART THE SERVICE"
+
+msgid "INICIAR/DETENER EL SERVICIO"
+msgstr "START/STOP THE SERVICE"
+
+msgid "LOG DE DDOS"
+msgstr "DDOS LOG"
+
+msgid "LOG DE DDOS EN TIEMPO REAL"
+msgstr "DDOS LOG IN REAL TIME"
+
+msgid "REINSTALAR"
+msgstr "REINSTALL"
+
+msgid "DESINSTALAR"
+msgstr "UNINSTALL"
+
+msgid "INSTALAR DDOS"
+msgstr "INSTALL DDOS"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an option"
+

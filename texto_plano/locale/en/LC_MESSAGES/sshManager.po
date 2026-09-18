@@ -1,0 +1,125 @@
+msgid "ADMINISTRADOR SSH"
+msgstr "SSH ADMINISTRATOR"
+
+msgid "VOLVER"
+msgstr "RETURN"
+
+msgid "MODIFICAR PUERTO SSH"
+msgstr "MODIFY SSH PORT"
+
+msgid "INICIAR/DETENER SERVIDOR SSH"
+msgstr "START/STOP SSH SERVER"
+
+msgid "REINICIAR SERVIDOR SSH"
+msgstr "RESTART SSH SERVER"
+
+msgid "DESINSTALAR OPENSSH-SERVER"
+msgstr "UNINSTALL OPENSSH-SERVER"
+
+msgid "INSTALAR OPENSSH-SERVER"
+msgstr "INSTALL OPENSSH-SERVER"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"
+
+msgid "Ingresa tus puertos"
+msgstr "Enter your ports"
+
+msgid "INGRESA PUERTOS CONSECUTIVOS"
+msgstr "ENTER CONSECUTIVE PORTS"
+
+msgid "SEPARADOR POR UN ESPACIO"
+msgstr "SEPARATOR FOR A SPACE"
+
+msgid "EJ:"
+msgstr "EX:"
+
+msgid "INVALIDO!"
+msgstr "INVALID!"
+
+msgid "EN USO!"
+msgstr "IN USE!"
+
+msgid "DISPONIBLE!"
+msgstr "AVAILABLE!"
+
+msgid "REINTENTAR"
+msgstr "RETRY"
+
+msgid "GUARDAR"
+msgstr "SAVE"
+
+msgid "falla al modificar puertos ssh"
+msgstr "Failed to modify ssh ports"
+
+msgid "PUERTOS:"
+msgstr "PORTS:"
+
+msgid "sin puerto activo"
+msgstr "no active port"
+
+msgid "PRECAUCION!"
+msgstr "CAUTION!"
+
+msgid "ANTES DE CONTINUAR, ASEGURARCE QUE!"
+msgstr "BEFORE CONTINUING, MAKE SURE!"
+
+msgid "SAVES LO QUE HACES!"
+msgstr "YOU SAVE WHAT YOU DO!"
+
+msgid "QUE ESTAS EN UN ENTORNO DE PRUEVA!"
+msgstr "YOU ARE IN A TEST ENVIRONMENT!"
+
+msgid "QUE TIENES UN METODO ALTERNO SSH!"
+msgstr "YOU HAVE AN ALTERNATE SSH METHOD!"
+
+msgid "QUE CON ESTO PUEDES PERDER EL ACCESO AL SERVIDOR VPS!"
+msgstr "WITH THIS YOU CAN LOSE ACCESS TO THE VPS SERVER!"
+
+msgid "Desea continuar? [S/N]"
+msgstr "Do you want to continue? [Y/N]"
+
+msgid "El administrador ssh no esta preparado"
+msgstr "The ssh manager is not prepared"
+
+msgid "para el manejo a travez de socket de systemd."
+msgstr "for systemd socket handling."
+
+msgid "Esto puede dificultar la modificacion"
+msgstr "This can make it difficult to modify"
+
+msgid "de puertos, el inicio y reinicio del servicio."
+msgstr "ports, start and restart the service."
+
+msgid "Para desactivar el socket systemd"
+msgstr "To disable systemd socket"
+
+msgid "requiere reiniciar el servidor vps!"
+msgstr "requires restarting the vps server!"
+
+msgid "Antes de continuar y por seguridad aplique un"
+msgstr "Before continuing and for security reasons, apply an"
+
+msgid "metodo alterno de coneccion a su servidor vps!"
+msgstr "alternate method of connection to your VPS server!"
+
+msgid "Desactivar el socket? [S/N]"
+msgstr "Disable socket? [Y/N]"
+
+msgid "CONFIGURAR BANNER SSH"
+msgstr "CONFIGURE SSH BANNER"
+
+msgid "CONFIGURAR CLAVE Y ACCESO ROOT"
+msgstr "SET UP PASSWORD AND ROOT ACCESS"
+
+msgid "falla al abrir sshd_config"
+msgstr "Failed to open sshd_config"
+
+msgid "falla al leer sshd_config"
+msgstr "Failed to read sshd_config"
+
+msgid "APLICANDO CONFIGURACIONES INICIALES"
+msgstr "APPLYING INITIAL SETTINGS"
+
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"

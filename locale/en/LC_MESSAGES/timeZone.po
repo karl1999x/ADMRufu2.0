@@ -1,0 +1,18 @@
+msgid "CONFIGURACION DE ZONA HORARIA"
+msgstr "TIME ZONE CONFIGURATION"
+
+msgid "ZONA HORARIA NO MODIFICADA"
+msgstr "NON -MODIFIED TIME ZONE"
+
+msgid "Se mantiene la configuracion del sistema"
+msgstr "System configuration is maintained"
+
+msgid "FALLA AL MODIFICAR ZONA HORARIA"
+msgstr "FAILURE WHEN MODIFYING TIME ZONE"
+
+msgid "ZONA HORARIA MODIFICADA"
+msgstr "MODIFIED TIME ZONE"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an option"
+

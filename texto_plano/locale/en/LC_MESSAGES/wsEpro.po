@@ -1,0 +1,68 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "A QUE PUERTO SE REDIRECCIONA EL TRAFICO?"
+msgstr "TO WHICH PORT IS TRAFFIC REDIRECTED?"
+
+msgid "CANCELAR"
+msgstr "CANCEL"
+
+msgid "INGRESA MANUALMENTE"
+msgstr "ENTER MANUALLY"
+
+msgid "Ingresa una opcion"
+msgstr "Enter an option"
+
+msgid "Ingresa un puerto local"
+msgstr "Enter a local port"
+
+msgid "PUERTO DE REDIRECCION"
+msgstr "REDIRECT PORT"
+
+msgid "PUERTO PARA WS-EPRO"
+msgstr "PORT FOR WS-EPRO"
+
+msgid "falla al copiar binario ws-epro"
+msgstr "failure to copy ws-epro binary"
+
+msgid "INSTALADOR WS-EPRO"
+msgstr "WS-EPRO INSTALLER"
+
+msgid "Confima que quiere desinstalar? [S/N]"
+msgstr "Confirm that you want to uninstall? [Y/N]"
+
+msgid "Confima que quiere reinstalar? [S/N]"
+msgstr "Confirm that you want to reinstall? [Y/N]"
+
+msgid "Confima que quiere reconfigurar? [S/N]"
+msgstr "Confirm you want to reconfigure? [Y/N]"
+
+msgid "RECONFIGURAR WS-EPRO"
+msgstr "RECONFIGURE WS-EPRO"
+
+msgid "ADMINISTRADOR WS-EPRO"
+msgstr "WS-EPRO ADMINISTRATOR"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESET SERVICE"
+
+msgid "INICIAR/PARAR SERVICIO"
+msgstr "START/STOP SERVICE"
+
+msgid "LOG WS-EPRO EN TIEMPO REAL"
+msgstr "WS-EPRO REAL-TIME LOG"
+
+msgid "REINSTALAR"
+msgstr "REINSTALL"
+
+msgid "DESINSTALAR"
+msgstr "UNINSTALL"
+
+msgid "INSTALAR WS-EPRO"
+msgstr "INSTALL WS-EPRO"

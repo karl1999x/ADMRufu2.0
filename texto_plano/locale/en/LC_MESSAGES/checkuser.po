@@ -1,0 +1,56 @@
+msgid "Presione enter para continuar"
+msgstr "Press enter to continue"
+
+msgid "INSTALADOR CHECKUSER"
+msgstr "INSTALLER CHECKER"
+
+msgid "falla al copiar binario checkuser"
+msgstr "failed to copy binary checkuser"
+
+msgid "falla al crear servicio checkuser"
+msgstr "failed to create service checkuser"
+
+msgid "Confima que quiere desinstalar? [S/N]"
+msgstr "Are you sure you want to uninstall? [Y/N]"
+
+msgid "VERIFICION CHECKUSER"
+msgstr "CHECKUSER VERIFICATION"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "ESTADO DEL SERVICIO"
+msgstr "SERVICE STATUS"
+
+msgid "REINICIAR SERVICIO"
+msgstr "RESET SERVICE"
+
+msgid "INICIAR/PARAR CHECKUSER"
+msgstr "START/STOP CHECKUSER"
+
+msgid "LOG CHECKUSER"
+msgstr "LOG CHECKUSER"
+
+msgid "LOG EN TIEMPO REAL"
+msgstr "LOG IN REAL TIME"
+
+msgid "LIMPIAR LOG"
+msgstr "CLEAR LOG"
+
+msgid "DESINSTALAR CHECKUSER"
+msgstr "UNINSTALL CHECKUSER"
+
+msgid "INSTALAR CHECKUSER"
+msgstr "INSTALL CHECKUSER"
+
+msgid "Ingresa una Opcion"
+msgstr "Enter an Option"
+
+msgid "Aplicar"
+msgstr "Apply"
+
+msgid "UTC (hora internacional)"
+msgstr "UTC (International Time)"
+
+msgid "Zona horaria configurada en el sistema"
+msgstr "Time zone configured in the system"
