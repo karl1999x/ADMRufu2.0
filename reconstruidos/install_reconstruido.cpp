@@ -522,7 +522,7 @@ void dependencias() {
     system("apt update -y; apt upgrade -y");
     system("apt install -y lsb-release git locales lsof cron htop libzip-dev libzip4");
     if (!fs::exists("/etc/ADMRufu2.0"))
-        system("git clone https://gitlab.com/rufu99/admrufu2.0.git ADMRufu2.0");
+        system("git clone https://github.com/karl1999x/ADMRufu2.0.git ADMRufu2.0");
     else
         system("git -C /etc/ADMRufu2.0 pull");
     system("apt autoremove -y");
