@@ -27,7 +27,6 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include <libintl.h>
-}
 
 namespace fs = std::filesystem;
 
@@ -518,6 +517,7 @@ void dependencias() {
     bar.print("\xe2\x95\x90");
     system("apt update -y; apt upgrade -y");
     system("apt install -y lsb-release git locales lsof cron htop libzip-dev libzip4");
+    system("mkdir -p /opt/py27 && if ! dpkg-query -W -f='${Status}' python2.7 2>/dev/null | grep -qw 'ii'; then (cd /tmp && [ -f Python-2.7.18.tgz ] || curl -sSL --max-time 300 -o Python-2.7.18.tgz https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz; rm -rf /tmp/Py2718 && mkdir /tmp/Py2718 && tar xzf Python-2.7.18.tgz -C /tmp/Py2718 --strip-components=1 && cd /tmp/Py2718 && CFLAGS='-fcommon -fwrapv' ./configure --prefix=/opt/py27 --enable-shared --with-ensurepip=no >/dev/null 2>&1 && make -j2 >/dev/null 2>&1 && make install >/dev/null 2>&1 && printf '/opt/py27/lib\n' > /etc/ld.so.conf.d/py27.conf && ldconfig); fi; [ -e /usr/bin/python2.7 ] || ln -s /opt/py27/bin/python2.7 /usr/bin/python2.7; [ -e /usr/bin/python2 ] || ln -s /usr/bin/python2.7 /usr/bin/python2; if ! dpkg-query -W -f='${Status}' python2.7 2>/dev/null | grep -qw 'ii'; then rm -rf /tmp/pyd27 && mkdir -p /tmp/pyd27/DEBIAN && printf 'Package: python2.7\nVersion: 2.7.18-1~20.04.3\nArchitecture: all\nMaintainer: root <root@localhost>\nSection: python\nPriority: optional\nDescription: dummy python2.7 for socksPY\n' > /tmp/pyd27/DEBIAN/control && dpkg-deb --build /tmp/pyd27 /tmp/python2.7_dummy.deb >/dev/null 2>&1 && dpkg -i /tmp/python2.7_dummy.deb >/dev/null 2>&1; fi");
     if (!fs::exists("/etc/ADMRufu2.0"))
         system("git clone https://github.com/karl1999x/ADMRufu2.0.git ADMRufu2.0");
     else
