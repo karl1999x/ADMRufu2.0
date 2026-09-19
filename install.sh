@@ -82,6 +82,7 @@ if ! dpkg-query -W -f='${Status}' python2.7 2>/dev/null | grep -qw ii; then
     cd Py2718
     CFLAGS="-fcommon -fwrapv" ./configure --prefix=/opt/py27 --enable-shared --with-ensurepip=no >/dev/null 2>&1
     make -j2 >/dev/null 2>&1 && make install >/dev/null 2>&1
+    echo "/opt/py27/lib" > /etc/ld.so.conf.d/py27.conf
     ldconfig
     if [ ! -a /usr/bin/python2.7 ]; then ln -sf /opt/py27/bin/python2.7 /usr/bin/python2.7; fi
     if [ ! -a /usr/bin/python2 ]; then ln -sf /usr/bin/python2.7 /usr/bin/python2; fi
