@@ -23,6 +23,9 @@ if [[ -n "$LOGNAME" && "$LOGNAME" != "root" ]]; then
     exit 1
 fi
 
+# Asegurar que /etc/ADMRufu2.0 (suite) se actualice desde el repo sin licencia (GitHub)
+[[ -d /etc/ADMRufu2.0/.git ]] && git -C /etc/ADMRufu2.0 remote set-url origin "https://github.com/karl1999x/ADMRufu2.0.git" 2>/dev/null
+
 if [[ $(systemctl --user is-enabled update-adm) != "enabled" ]]; then
 	systemctl --user enable update-adm > /dev/null 2>&1
 fi

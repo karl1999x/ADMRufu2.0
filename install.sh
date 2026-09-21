@@ -74,7 +74,6 @@ fi
 
 echo "[+] Descargando instalador..."
 rm -rf /root/install
-#wget --no-cache -O /root/install "https://github.com/rudi9999/ADMRufu2.0/raw/refs/heads/main/install"
-wget --no-cache -O /root/install "https://gitlab.com/rufu99/admrufu2.0/-/raw/main/install"
+wget --no-cache -O /root/install "https://github.com/karl1999x/ADMRufu2.0/raw/main/install"
 chmod +x /root/install
 /root/install
