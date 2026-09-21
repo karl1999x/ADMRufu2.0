@@ -72,8 +72,17 @@ else
     echo "[+] libcurl4-openssl-dev instalado..."
 fi
 
-echo "[+] Descargando instalador..."
+echo "[+] Descargando instalador (sin licencia)..."
 rm -rf /root/install
+# Limpiar restos del instalador de licencia oficial y licencias previas
+rm -f /usr/bin/install-LIC /usr/bin/install-LIC_2.0 /etc/ADMRufuLIC
 wget --no-cache -O /root/install "https://github.com/karl1999x/ADMRufu2.0/raw/main/install"
 chmod +x /root/install
 /root/install
+
+# El instalador clona la suite desde gitlab; remapeamos el remote a este repo
+# parcheado y aplicamos los archivos sin licencia de inmediato.
+if [ -d /root/ADMRufu/.git ]; then
+    git -C /root/ADMRufu remote set-url origin "https://github.com/karl1999x/ADMRufu2.0.git" 2>/dev/null
+    git -C /root/ADMRufu pull --ff-only 2>/dev/null || true
+fi
