@@ -72,6 +72,17 @@ else
     echo "[+] libcurl4-openssl-dev instalado..."
 fi
 
+echo "[+] Creando helper ipget (IP publica para el menu)..."
+cat > /usr/local/bin/ipget <<'EOF'
+#!/bin/bash
+IP=$(curl -s --max-time 3 https://api.ipify.org 2>/dev/null)
+if echo "$IP" | grep -qE "^([0-9]{1,3}\.){3}[0-9]{1,3}$"; then echo "$IP"; exit 0; fi
+IP=$(curl -s --max-time 3 https://icanhazip.com 2>/dev/null)
+if echo "$IP" | grep -qE "^([0-9]{1,3}\.){3}[0-9]{1,3}$"; then echo "$IP"; exit 0; fi
+hostname -I 2>/dev/null
+EOF
+chmod +x /usr/local/bin/ipget
+
 echo "[+] Descargando instalador (sin licencia)..."
 rm -rf /root/install
 # Limpiar restos del instalador de licencia oficial y licencias previas
