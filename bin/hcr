@@ -49,7 +49,7 @@ bin="/usr/local/lib/hcr-server"
 
 if $on; then
 
-	if [[ ! -f $sev ]]; then
+	if [[ ! -f $serv ]]; then
 		systemctl disable --now hcr
 		rm -rf $serv
 		systemctl daemon-reload
