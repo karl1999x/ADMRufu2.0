@@ -1,0 +1,14 @@
+[Unit]
+Description=apiAccess Service by @Rufu99
+After=network.target nss-lookup.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/root/ADMRufu/apiAccess/apiAccess
+ExecStartPre=/root/ADMRufu/apiAccess/autoLic
+Restart=on-failure
+RestartPreventExitStatus=23
+
+[Install]
+WantedBy=multi-user.target

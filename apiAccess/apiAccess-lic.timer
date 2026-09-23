@@ -1,0 +1,11 @@
+[Unit]
+Description=Ejecuta autoLic (licencia apiAccess) cada 1 dia
+
+[Timer]
+OnBootSec=10min
+OnCalendar=*-*-* 05:00:00
+RandomizedDelaySec=15min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

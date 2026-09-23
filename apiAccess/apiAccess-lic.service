@@ -1,0 +1,6 @@
+[Unit]
+Description=Refresh diario de licencia apiAccess (self-healing por IP)
+
+[Service]
+Type=oneshot
+ExecStart=/root/ADMRufu/apiAccess/autoLic
