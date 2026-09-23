@@ -32,6 +32,7 @@ User=root
 ExecStart=/root/ADMRufu/apiAccess/apiAccess
 ExecStartPre=/root/ADMRufu/apiAccess/autoLic
 Restart=on-failure
+RestartSec=5
 RestartPreventExitStatus=23
 
 [Install]
