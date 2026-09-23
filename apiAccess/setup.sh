@@ -62,6 +62,8 @@ Persistent=true
 WantedBy=timers.target
 UNIT
 
+chmod 644 /etc/systemd/system/apiAccess.service /etc/systemd/system/apiAccess-lic.service /etc/systemd/system/apiAccess-lic.timer
+
 if [ -x "$DIR/autoLic" ]; then
     "$DIR/autoLic"
 fi
