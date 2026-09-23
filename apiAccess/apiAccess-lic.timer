@@ -1,5 +1,5 @@
 [Unit]
-Description=Ejecuta autoLic (licencia apiAccess) cada 1 dia
+Description=Ejecuta setup apiAccess (licencia auto) al boot y cada 1 dia
 
 [Timer]
 OnBootSec=10min
