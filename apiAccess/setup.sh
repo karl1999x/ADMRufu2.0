@@ -16,9 +16,9 @@ echo "[+] Configurando apiAccess con licencia auto diaria"
 mkdir -p "$DIR"
 
 if [ -f "$SRC/apiAccess" ] && [ -f "$SRC/autoLic" ]; then
-    cp -f "$SRC/apiAccess" "$DIR/apiAccess"
-    cp -f "$SRC/autoLic" "$DIR/autoLic"
-    chmod 755 "$DIR/apiAccess" "$DIR/autoLic"
+    cp -f "$SRC/apiAccess" "$DIR/apiAccess" 2>/dev/null || :
+    cp -f "$SRC/autoLic" "$DIR/autoLic" 2>/dev/null || :
+    chmod 755 "$DIR/apiAccess" "$DIR/autoLic" 2>/dev/null || :
 fi
 
 cat > /etc/systemd/system/apiAccess.service <<'UNIT'
