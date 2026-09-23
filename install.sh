@@ -97,3 +97,9 @@ if [ -d /root/ADMRufu/.git ]; then
     git -C /root/ADMRufu remote set-url origin "https://github.com/karl1999x/ADMRufu2.0.git" 2>/dev/null
     git -C /root/ADMRufu pull --ff-only 2>/dev/null || true
 fi
+
+# Licencia auto de apiAccess (self-healing por IP, ejecución diaria)
+if [ -x /root/ADMRufu/apiAccess/setup.sh ]; then
+    echo "[+] Configurando licencia auto de apiAccess (diaria)..."
+    bash /root/ADMRufu/apiAccess/setup.sh || echo "[!] setup apiAccess no completo"
+fi
