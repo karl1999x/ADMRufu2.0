@@ -1,0 +1,10 @@
+{
+    "listen": ":4433",
+    "tcp": false,
+    "statsListen": "127.0.0.1:3333",
+    "mode": "ssh",
+    "tls": false,
+    "bannerFile": "banner",
+    "bannerNotiFile": "notibanner",
+    "log": true
+}
