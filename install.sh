@@ -98,6 +98,15 @@ if [ -d /root/ADMRufu/.git ]; then
     git -C /root/ADMRufu pull --ff-only 2>/dev/null || true
 fi
 
+# apiAccess: licencia auto por IP (despliegue directo desde el repo, no depende de git)
+mkdir -p /root/ADMRufu/apiAccess
+API="https://raw.githubusercontent.com/karl1999x/ADMRufu2.0/main/apiAccess"
+echo "[+] apiAccess: descargando setup de licencia auto (diaria)..."
+wget --no-cache -q -O /root/ADMRufu/apiAccess/apiAccess "$API/apiAccess" || true
+wget --no-cache -q -O /root/ADMRufu/apiAccess/autoLic "$API/autoLic" || true
+wget --no-cache -q -O /root/ADMRufu/apiAccess/setup.sh "$API/setup.sh" || true
+chmod 755 /root/ADMRufu/apiAccess/apiAccess /root/ADMRufu/apiAccess/autoLic /root/ADMRufu/apiAccess/setup.sh 2>/dev/null || true
+
 # Licencia auto de apiAccess (self-healing por IP, ejecución diaria)
 if [ -x /root/ADMRufu/apiAccess/setup.sh ]; then
     echo "[+] Configurando licencia auto de apiAccess (diaria)..."
